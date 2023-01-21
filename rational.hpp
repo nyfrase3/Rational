@@ -9,6 +9,7 @@
 #include <iosfwd>
 #include <iostream>
 #include <stdlib.h>
+#include "./rational.hpp"
 
 
 // Mathematical helper functions.
@@ -23,16 +24,18 @@ int lcm(int, int);
 class Rational
 {
   // TODO: Define the following:
+  int m_numerator;
+  int m_denominator;
   // 1. A default constructor
   // 2. A constructor that takes an integer value
   // 3. A constructor that takes a pair of values
 
   public:
       // Returns the numerator.
-      int num() const { /* TODO: Implement me. */ }
+      int num() const { return m_numerator; }
 
       // Returns the denominator
-      int den() const { /* TODO: Implement me. */ }
+      int den() const { return m_denominator; }
 
 };
 
