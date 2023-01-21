@@ -9,7 +9,7 @@
 #include <iosfwd>
 #include <iostream>
 #include <stdlib.h>
-#include "./rational.hpp"
+#include "./rational.cpp"
 
 
 // Mathematical helper functions.
@@ -58,7 +58,7 @@ class Rational
 // These are provided for you.
 //
 // NOTE: They are defined in rational.cpp.
-std::ostream& operator<<(std::ostream&, Rational);
-std::istream& operator>>(std::istream&, Rational&);
+// std::ostream& operator<<(std::ostream&, Rational);
+// std::istream& operator>>(std::istream&, Rational&);
 
 #endif

@@ -1,3 +1,7 @@
+#ifndef RATIONAL_CPP
+#define RATIONAL_CPP
+
+#include <iostream>
 #include "./rational.hpp"
 
 int gcd(int firstNum, int secondNum){
@@ -20,9 +24,11 @@ int lcm(int firstNum, int secondNum){
 
 }
 
-std::ostream& operator<<(std::ostream& out, Rational rational){
-    return out;
-    }
-std::istream& operator>>(std::istream& in, Rational& rational){
-    return in;
-}
+// std::ostream& operator<<(std::ostream& out, Rational rational){
+//     return out;
+//     }
+// std::istream& operator>>(std::istream& in, Rational& rational){
+//     return in;
+// }
+
+#endif
